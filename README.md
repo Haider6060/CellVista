@@ -50,7 +50,7 @@ CellVista has been successfully tested on multiple real-world datasets:
 | Breast cancer (GEO) | GEO | Validation dataset |
 | Pancreatic cancer (GEO) | GEO | Tumor microenvironment |
 | Brain tumor (GEO) | GEO | Glioblastoma test dataset |  
-
+|Hypothalamus development (GEO) | GEO | Non-cancer developmental dataset (mouse, 11 timepoints)
 
 All datasets processed successfully, confirming **robustness and generalizability**.  
 
@@ -79,7 +79,7 @@ shiny::runApp("your_app_folder_path")
 | `demo_breast_seurat.rds` | Breast cancer subsample |
 | `demo_pancreas_seurat.rds` | Pancreatic cancer subsample |
 | `demo_brain_seurat.rds` | Glioblastoma subsample |  
-
+| demo_hypothalamus_seurat.rds | Mouse hypothalamus developmental subsample (non-cancer)
 > ⚠️ These are 200-cell subsamples to meet GitHub limits. Full datasets used for testing are available on request.
 
 ---
@@ -101,4 +101,5 @@ MIT License
 ## 📚 Citation  
 
 If **CellVista** contributes to your research, please cite this tool in your publication.  
+
 
